@@ -1,0 +1,77 @@
+.aboutMe {
+    width: 550px;
+    height: 700px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 30px auto;
+}
+
+.aboutMeTitle {
+    font-size: 65px;
+    padding-bottom: 80px;
+    color: #5d5fef;
+    font-weight: bold;
+    text-shadow: #5d5fef 1px 0 10px;  
+}
+
+.aboutMeInfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.2s ease;
+    border: #000000 solid 2px;
+
+    position: relative;
+}
+
+.infItem {
+    margin: 0 auto;
+    padding: 40px 50px;
+    font-weight: bold;
+}
+
+.item-cyrc1::before {
+    content: "";
+    position: absolute;
+    left: 40px;
+    top: 69px;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px; 
+    background-color: black;
+    border-radius: 50%;
+}
+
+.item-cyrc2::before {
+    content: "";
+    position: absolute;
+    left: 40px;
+    top: 169px;
+    transform: translateY(-50%);
+    width: 8px; 
+    height: 8px; 
+    background-color: black;
+    border-radius: 50%;
+}
+
+.item-cyrc3::before {
+    content: "";
+    position: absolute;
+    left: 40px;
+    top: 269px;
+    transform: translateY(-50%);
+    width: 8px; 
+    height: 8px; 
+    background-color: black;
+    border-radius: 50%;
+}

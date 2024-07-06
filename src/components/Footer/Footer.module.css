@@ -1,0 +1,12 @@
+.footer {
+    margin-top: 100px;
+    background-color: #171718;
+}
+
+.footerInner {
+    color: #ADADAD;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 100px;
+}

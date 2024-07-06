@@ -1,0 +1,62 @@
+.projects {
+    height: 1115px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projectTitle {
+    font-size: 85px;
+    padding: 95px 0;
+    color: #5d5fef;
+    font-weight: bold;
+    text-shadow: #5d5fef 1px 0 10px;
+}
+
+.projectListRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.projectListItem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.2s ease;
+    width: 300px; /* ширина каждого элемента */
+    margin: 20px; /* отступы между элементами */
+    padding: 20px; /* отступы внутри элемента */
+    box-sizing: border-box; /* учитывать отступы внутри ширины и высоты */
+}
+
+.projectListItem:hover {
+    transform: translateY(-10px);
+}
+
+.projectListItemImage {
+    width: 100%; /* сделать контейнер шириной в 100% от родительского элемента */
+    height: auto; /* автоматическая высота */
+    border: 1px solid #ccc; /* бордер для изображения */
+    border-radius: 10px; /* округлые углы */
+    overflow: hidden; /* скрыть часть изображения, выходящую за пределы контейнера */
+}
+
+.projectListItemImage img {
+    width: 100%; /* изображение занимает всю ширину контейнера */
+    height: auto; /* сохранять пропорции изображения */
+}
+
+.projectListItemText {
+    padding: 25px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
