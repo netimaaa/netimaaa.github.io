@@ -1,0 +1,12 @@
+.imageContainer {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+.textContainer {
+    padding-top: 200px;
+    text-align: center;
+}
+.title {
+    text-align: center;
+}

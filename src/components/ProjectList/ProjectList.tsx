@@ -12,8 +12,8 @@ const ProjectList = () => {
             <Image
               src="/img/project_image.png"
               alt="Comic Project"
-              layout="fill"
-              objectFit="cover"
+              height={300}
+              width={300}
             />
           </div>
           <div className={styles.projectListItemText}>COMIC PROJECT</div>
@@ -23,8 +23,8 @@ const ProjectList = () => {
             <Image
               src="/img/project_image.png"
               alt="Project 2"
-              layout="fill"
-              objectFit="cover"
+              height={300}
+              width={300}
             />
           </div>
           <div className={styles.projectListItemText}>Project 2</div>
@@ -34,8 +34,8 @@ const ProjectList = () => {
             <Image
               src="/img/project_image.png"
               alt="Project 3"
-              layout="fill"
-              objectFit="cover"
+              height={300}
+              width={300}
             />
           </div>
           <div className={styles.projectListItemText}>Project 3</div>
@@ -45,8 +45,8 @@ const ProjectList = () => {
             <Image
               src="/img/project_image.png"
               alt="Project 4"
-              layout="fill"
-              objectFit="cover"
+              height={300}
+              width={300}
             />
           </div>
           <div className={styles.projectListItemText}>Project 4</div>
@@ -56,8 +56,8 @@ const ProjectList = () => {
             <Image
               src="/img/project_image.png"
               alt="Project 5"
-              layout="fill"
-              objectFit="cover"
+              height={300}
+              width={300}
             />
           </div>
           <div className={styles.projectListItemText}>Project 5</div>
@@ -67,8 +67,8 @@ const ProjectList = () => {
             <Image
               src="/img/project_image.png"
               alt="Project 6"
-              layout="fill"
-              objectFit="cover"
+              height={300}
+              width={300}
             />
           </div>
           <div className={styles.projectListItemText}>Project 6</div>

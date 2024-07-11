@@ -26,18 +26,22 @@ const Comic: React.FC<ComicProps> = ({ title, img, alt, date }) => {
 
   return (
     <div className={styles.comicContainer}>
-      <h1>{title}</h1>
+      <div className="title">
+        <h1>{title}</h1>
+      </div>
       <div className={styles.imageContainer}>
         <Image
           src={img}
           alt={alt}
           layout="responsive"
-          width={400}
+          width={300}
           height={300}
         />
       </div>
-      <p>{alt}</p>
-      <p>Published on: {formattedDate}</p>
+      <div className={styles.textContainer}>
+        <p>{alt}</p>
+        <p>Published on: {formattedDate}</p>
+      </div>
     </div>
   );
 };
