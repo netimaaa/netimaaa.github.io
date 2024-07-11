@@ -1,4 +1,5 @@
 // src/app/comic/page.tsx
+"use client";
 
 import Comic from "../../components/Comic/Comic";
 import NavBar from "../../components/NavBar/NavBar";
