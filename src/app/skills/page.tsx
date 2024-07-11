@@ -1,7 +1,7 @@
-import NavBar from '../../components/NavBar/NavBar';
-import Footer from '../../components/Footer/Footer';
-import Skills from '../../components/Skills/Skills';
-import styles from '../../styles/Home.module.css';
+import NavBar from "../../components/NavBar/NavBar";
+import Footer from "../../components/Footer/Footer";
+import Skills from "../../components/Skills/Skills";
+import styles from "../../styles/Home.module.css";
 
 const Home = () => {
   return (
